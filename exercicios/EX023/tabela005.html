@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 8px;
+        }
+
+        th,td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        tr.destaque{
+            background-color: gray;
+            color: white;
+        }
+        col.terceira{
+            background-color: rgb(93, 93, 163);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio De Tabela</h1>
+    <table>
+        <colgroup>
+        <col class="primeira">
+        <col class="segunda">
+        <col class="terceira">
+        <col class="quarta">
+    
+    </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana maria</td>
+            <td style="background-color: pink;">F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+
+        </tr>
+        <tr>
+            <td>maria carla</td>
+            <td style="background-color: pink;">F</td>
+            <td>29</td>
+            <td>Moda</td>
+
+        </tr>
+        <tr>
+            <td>Caio Ribeiro</td>
+            <td style="background-color:rgb(103, 206, 99);">M</td>
+            <td>21</td>
+            <td> reporter</td>
+
+        </tr>
+        <tr>
+            <td>Erick Jacquin</td>
+            <td style="background-color: rgb(103, 206, 99);">M</td>
+            <td>55</td>
+            <td>Cozinheiro</td>
+
+        </tr>
+        <tr>
+            <td>Leticia </td>
+            <td style="background-color: pink;">F</td>
+            <td>35</td>
+            <td>Arquiteta</td>
+
+        </tr>
+        <tr class="destaque">
+            <td>Ana vitoria</td>
+            <td style="background-color: pink;">F</td>
+            <td>25</td>
+            <td>Desgner</td>
+
+        </tr>
+
+    </table>
+</body>
+</html>
